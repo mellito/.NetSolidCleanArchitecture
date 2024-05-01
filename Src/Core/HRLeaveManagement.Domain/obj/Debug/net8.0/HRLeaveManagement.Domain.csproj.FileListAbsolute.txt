@@ -1,0 +1,11 @@
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\bin\Debug\net8.0\HRLeaveManagement.Domain.deps.json
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\bin\Debug\net8.0\HRLeaveManagement.Domain.dll
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\bin\Debug\net8.0\HRLeaveManagement.Domain.pdb
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\HRLeaveManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\HRLeaveManagement.Domain.AssemblyInfoInputs.cache
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\HRLeaveManagement.Domain.AssemblyInfo.cs
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\HRLeaveManagement.Domain.csproj.CoreCompileInputs.cache
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\HRLeaveManagement.Domain.dll
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\refint\HRLeaveManagement.Domain.dll
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\HRLeaveManagement.Domain.pdb
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\ref\HRLeaveManagement.Domain.dll

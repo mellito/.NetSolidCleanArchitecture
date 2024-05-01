@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj": {}
+  },
+  "projects": {
+    "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj",
+        "projectName": "HRLeaveManagement.Application",
+        "projectPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\dayan\\.nuget\\packages\\",
+        "outputPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dayan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj": {
+                "projectPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj",
+        "projectName": "HRLeaveManagement.Domain",
+        "projectPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\dayan\\.nuget\\packages\\",
+        "outputPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dayan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
