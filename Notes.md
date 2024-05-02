@@ -25,6 +25,8 @@ dotnet add app/app.csproj reference lib/lib.csproj
 - set a application services that is a static class to set mediatr and automapper
 - create a folder for mapping profile this is the place where we are going to create our mapping using automapper
 - create a folder Feature this one is more relative to behavior and not types inside we can create folder for each model and then create folder for commands(update,create,delete) purpose and queries (read) purpose this is for que cqrs pattern inside of queries create a new folder to specify the purpose of and inside we can create all file referent to this purpose
+- implement mediatr for this need to use IRequest and IRequestHandler to segregate and make that each one of the classes do one thing
+- create validator for validate incoming data and don't have dirty information
 
 # Notes
 
@@ -141,3 +143,7 @@ allows to implement CQRS patter by using IRequest and IRequestHandler method to 
 ### CQRS(COMMAND QUERY RESPONSIBILITY SEGREGATION) PATTERN
 
 this is a pattern that help us to separate the request in command(change data) and query(get information)
+
+### FLUENTVALIDATION
+
+Help us to save the integrity data
