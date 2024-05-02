@@ -20,7 +20,7 @@ namespace HRLeaveManagement.Application.Features.LeaveType.Commands.DeleteLeaveT
         public async Task<Unit> Handle(DeleteLeaveTypeCommandRequest request, CancellationToken cancellationToken)
         {
 
-            var validator = new GetLeaveTypeDetailsQueryRequestValidator(_leaveTypeRepository);
+            var validator = new DeleteLeaveTypeCommandRequestValidator(_leaveTypeRepository);
             var validationResult = await validator.ValidateAsync(request);
 
             if (!validationResult.IsValid)
