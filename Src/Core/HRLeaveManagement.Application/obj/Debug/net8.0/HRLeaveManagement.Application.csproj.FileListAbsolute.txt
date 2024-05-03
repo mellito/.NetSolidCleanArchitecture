@@ -1,0 +1,16 @@
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\HRLeaveManagement.Application.csproj.AssemblyReference.cache
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\HRLeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\HRLeaveManagement.Application.AssemblyInfoInputs.cache
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\HRLeaveManagement.Application.AssemblyInfo.cs
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\HRLeaveManagement.Application.csproj.CoreCompileInputs.cache
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\HRLeaveManagement.Application.sourcelink.json
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\bin\Debug\net8.0\HRLeaveManagement.Application.deps.json
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\bin\Debug\net8.0\HRLeaveManagement.Application.dll
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\bin\Debug\net8.0\HRLeaveManagement.Application.pdb
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\bin\Debug\net8.0\HRLeaveManagement.Domain.dll
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\bin\Debug\net8.0\HRLeaveManagement.Domain.pdb
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\HRLeaveM.9588DBC1.Up2Date
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\HRLeaveManagement.Application.dll
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\refint\HRLeaveManagement.Application.dll
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\HRLeaveManagement.Application.pdb
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Application\obj\Debug\net8.0\ref\HRLeaveManagement.Application.dll

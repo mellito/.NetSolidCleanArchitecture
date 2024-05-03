@@ -15,18 +15,17 @@ namespace HRLeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeD
             RuleFor(l => l.Id)
             .GreaterThan(0)
             .WithMessage("Id can be not 0")
-            .NotNull();
-
-            RuleFor(p => p)
-            .MustAsync(LeaveTypeExist)
-            .WithMessage("Leave type not exists");
+            .NotNull()
+            .MustAsync(LeaveTypeMustExist)
+            .WithMessage("Leave type must exist"); ;
 
             _leaveTypeRepository = leaveTypeRepository;
         }
 
-        private async Task<bool> LeaveTypeExist(GetLeaveTypeDetailsQueryRequest request, CancellationToken token)
+        private async Task<bool> LeaveTypeMustExist(int id, CancellationToken arg2)
         {
-            return await _leaveTypeRepository.IsLeaveTypeExist(request.Id);
+            var leaveType = await _leaveTypeRepository.GetByIdAsync(id);
+            return leaveType != null;
         }
     }
 }

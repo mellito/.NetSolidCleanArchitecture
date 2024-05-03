@@ -28,11 +28,7 @@ namespace HRLeaveManagement.Application.Features.LeaveType.Commands.DeleteLeaveT
                 throw new BadRequestException("Invalid leaveType", validationResult);
             }
 
-            var leaveTypeToDelete = await _leaveTypeRepository.GetAByIdAsync(request.Id);
-            if (leaveTypeToDelete == null)
-            {
-                throw new NotFoundException(nameof(LeaveType), request.Id);
-            }
+            var leaveTypeToDelete = await _leaveTypeRepository.GetByIdAsync(request.Id);
             await _leaveTypeRepository.DeleteAsync(leaveTypeToDelete);
             return Unit.Value;
         }

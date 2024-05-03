@@ -24,11 +24,7 @@ namespace HRLeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeD
                 throw new BadRequestException("Invalid leaveType", validationResult);
             }
 
-            var leaveTypes = await _leaveTypeRepository.GetAByIdAsync(request.Id);
-            if (leaveTypes == null)
-            {
-                throw new NotFoundException(nameof(LeaveType), request.Id);
-            }
+            var leaveTypes = await _leaveTypeRepository.GetByIdAsync(request.Id);
             var result = _mapper.Map<LeaveTypeDetailsDto>(leaveTypes);
             return result;
         }

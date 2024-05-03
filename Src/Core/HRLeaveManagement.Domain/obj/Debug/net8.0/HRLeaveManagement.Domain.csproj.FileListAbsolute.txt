@@ -9,3 +9,4 @@ E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\o
 E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\refint\HRLeaveManagement.Domain.dll
 E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\HRLeaveManagement.Domain.pdb
 E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\core\HRLeaveManagement.Domain\obj\Debug\net8.0\ref\HRLeaveManagement.Domain.dll
+E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Src\Core\HRLeaveManagement.Domain\obj\Debug\net8.0\HRLeaveManagement.Domain.sourcelink.json

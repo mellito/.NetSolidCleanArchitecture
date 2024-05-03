@@ -9,6 +9,12 @@ dotnet new sln --name MYSolution
 dotnet new classlib -o classLibName
 # Add reference project
 dotnet add app/app.csproj reference lib/lib.csproj
+# create new web api
+dotnet new webapi -o nameapi
+# craete migration entityfrawork
+dotnet ef migrations add NewMigration --project WebApplication1.Migrations
+# update database entityframework
+dotnet ef database update
 ```
 
 # USE ONION ARCHITECTURE FOLDER STEPS
@@ -27,6 +33,12 @@ dotnet add app/app.csproj reference lib/lib.csproj
 - create a folder Feature this one is more relative to behavior and not types inside we can create folder for each model and then create folder for commands(update,create,delete) purpose and queries (read) purpose this is for que cqrs pattern inside of queries create a new folder to specify the purpose of and inside we can create all file referent to this purpose
 - implement mediatr for this need to use IRequest and IRequestHandler to segregate and make that each one of the classes do one thing
 - create validator for validate incoming data and don't have dirty information
+- create class library persistence to add project for the interfaces
+- add entityframework nuget and microsoft.extension.options.configurationextensions
+- create the persistenceServiceRegistration to set all the services of the library
+- create folder databasecontext and create dbcontextclass to set the table connection also set the other config need it
+- create infrastructure project is where is going be third party services like Sendgrid for email or logging for logs
+- create new api project and add entity framework nugets
 
 # Notes
 
@@ -147,3 +159,14 @@ this is a pattern that help us to separate the request in command(change data) a
 ### FLUENTVALIDATION
 
 Help us to save the integrity data
+
+### LOGGING
+
+- Logs are block of text that most applications produce during runtime
+- Human readable mini reports about what is happening in the application
+- Allow us to be able to track and trace errors that occur in our applications
+- type of logs
+  - information: standard log level used when something has happened as expected
+  - Debug: a very informational log level that is more than we might need for everyday use
+  - Warning: this log level indicates that something has happened that isn't an error but isn't normal
+  - Error: an error is an error this type of log entry is usually created when an exception is encountered
