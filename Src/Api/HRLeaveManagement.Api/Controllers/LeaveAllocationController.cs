@@ -1,20 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using HRLeaveManagement.Application.Features.LeaveAllocation.Commands.CreateLeaveAllocation;
 using HRLeaveManagement.Application.Features.LeaveAllocation.Commands.DeleteLeaveAllocation;
 using HRLeaveManagement.Application.Features.LeaveAllocation.Commands.UpdateLeaveAllocation;
 using HRLeaveManagement.Application.Features.LeaveAllocation.Queries.GetLeaveAllocationDetails;
 using HRLeaveManagement.Application.Features.LeaveAllocation.Queries.GetLeaveAllocations;
-using HRLeaveManagement.Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HRLeaveManagement.Api.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/leaveallocation")]
     public class LeaveAllocationController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -45,7 +40,7 @@ namespace HRLeaveManagement.Api.Controllers
             return CreatedAtAction(nameof(Get), new { id = response });
         }
 
-        [HttpPut(("{id}"))]
+        [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
