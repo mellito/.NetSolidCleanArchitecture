@@ -28,7 +28,7 @@ namespace HRLeaveManagement.Persistence.Repsositories
             return leaveAllocations;
         }
 
-        public async Task<List<LeaveAllocation>> GetLeaveAllocationsWithDetails(string userId)
+        public async Task<List<LeaveAllocation>> GetLeaveAllocationWithDetails(string userId)
         {
             var leaveAllocations = await _context.LeaveAllocations.Include(type => type.LeaveType).Where(allocation => allocation.EmployeeId == userId).ToListAsync();
             return leaveAllocations;
