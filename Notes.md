@@ -15,6 +15,8 @@ dotnet new webapi -o nameapi
 dotnet ef migrations add NewMigration --project WebApplication1.Migrations
 # update database entityframework
 dotnet ef database update
+# create xunit template
+dotnet new xunit -o projectName
 ```
 
 # USE ONION ARCHITECTURE FOLDER STEPS
@@ -170,3 +172,25 @@ Help us to save the integrity data
   - Debug: a very informational log level that is more than we might need for everyday use
   - Warning: this log level indicates that something has happened that isn't an error but isn't normal
   - Error: an error is an error this type of log entry is usually created when an exception is encountered
+
+## TESTING UNIT AND INTEGRATING TEST
+
+we are going to use
+
+- Xunit testing
+- Moq mocking framework
+- Shouldy assertions base on fluent api
+
+## SETUP TESTING UNIT
+
+- create project command at the top of the notes
+- add necessary nuget (Moq,Shouldly)
+- add reference to what you going to test this case application
+- add new folder for mock
+- add new folder feature for the feature to test
+- set up mock repository
+
+## SETUP TESTING INTEGRATING
+
+- create a new xunit project for integration test
+- install all the nuget and a new one for mock entityframework call entityframeworkcore.inmemory
