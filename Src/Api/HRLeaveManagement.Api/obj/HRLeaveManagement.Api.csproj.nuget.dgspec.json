@@ -29,6 +29,9 @@
               "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj": {
                 "projectPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj"
               },
+              "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Identity\\HRLeaveManagement.Identity.csproj": {
+                "projectPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Identity\\HRLeaveManagement.Identity.csproj"
+              },
               "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Infrastructure\\HRLeaveManagement.Infrastructure.csproj": {
                 "projectPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Infrastructure\\HRLeaveManagement.Infrastructure.csproj"
               },
@@ -209,6 +212,96 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Identity\\HRLeaveManagement.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Identity\\HRLeaveManagement.Identity.csproj",
+        "projectName": "HRLeaveManagement.Identity",
+        "projectPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Identity\\HRLeaveManagement.Identity.csproj",
+        "packagesPath": "C:\\Users\\dayan\\.nuget\\packages\\",
+        "outputPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dayan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj": {
+                "projectPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Core\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

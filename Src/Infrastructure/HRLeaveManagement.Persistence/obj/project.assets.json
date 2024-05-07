@@ -3068,11 +3068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Persistence\\HRLeaveManagement.Persistence.csproj",
+      "projectUniqueName": "e:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Persistence\\HRLeaveManagement.Persistence.csproj",
       "projectName": "HRLeaveManagement.Persistence",
-      "projectPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Persistence\\HRLeaveManagement.Persistence.csproj",
+      "projectPath": "e:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Persistence\\HRLeaveManagement.Persistence.csproj",
       "packagesPath": "C:\\Users\\dayan\\.nuget\\packages\\",
-      "outputPath": "E:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Persistence\\obj\\",
+      "outputPath": "e:\\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\\Src\\Infrastructure\\HRLeaveManagement.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dayan\\AppData\\Roaming\\NuGet\\NuGet.Config"

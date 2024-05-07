@@ -17,6 +17,9 @@ dotnet ef migrations add NewMigration --project WebApplication1.Migrations
 dotnet ef database update
 # create xunit template
 dotnet new xunit -o projectName
+# create migrations in with multiple dbcontext
+ dotnet ef add migration --project whereisthedbcontext --context nameofthecontext --startup-project
+whereisyouapi
 ```
 
 # USE ONION ARCHITECTURE FOLDER STEPS
@@ -194,3 +197,10 @@ we are going to use
 
 - create a new xunit project for integration test
 - install all the nuget and a new one for mock entityframework call entityframeworkcore.inmemory
+
+## SETUP SECURITY
+
+### SETUP IDENTITY (create user)
+
+- infrastructure folder, create a class library for identiy
+- add nuget microsoft.aspnetcode.identiy, microsoft.aspnetcode.identiy.entityframeworkcode, microsoft.entityframeworkcore.sqlserver, microsoft.entityframeworkcore.tools, microsoft.extensions.options.configurationextensions, microsoft.AspNetCore.Authentication.JwtBearer
