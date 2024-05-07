@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HRLeaveManagament.Persistence.Integration
-build_property.ProjectDir = E:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Tests\HRLeaveManagament.Persistence.Integration\
+build_property.ProjectDir = e:\ASP_NET_CORE_SOLID_AND_CLEAN_ARCHITECTURE\Tests\HRLeaveManagament.Persistence.Integration\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
